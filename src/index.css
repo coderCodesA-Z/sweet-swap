@@ -1,0 +1,34 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+*,
+::after,
+::before {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+html,
+body {
+	height: 100%;
+	width: 100%;
+}
+
+body {
+	overscroll-behavior-y: none;
+	background-image: url("./assets/background.png");
+	background-size: cover;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+#root {
+	height: 90%;
+	width: 100%;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
